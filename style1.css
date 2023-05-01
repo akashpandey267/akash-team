@@ -12,6 +12,8 @@ padding-top: 30%;
 }
 .landing img{
 padding-top: 50px;
+width: 80%;
+text-align: center;
 }
 .landing h2{
     color: black;
