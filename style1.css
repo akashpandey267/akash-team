@@ -11,7 +11,7 @@ padding-top: 30%;
     color: red;
 }
 .landing img{
-padding-top: 50px;
+padding-top: 55px;
 width: 100%;
 text-align: center;
 }
@@ -27,39 +27,45 @@ text-align: center;
 
 .landing h4{
 text-transform: capitalize;
-padding-top: 50px;
+padding-top: 100px;
 font-style: italic;
 text-align: center;
 font-size: 15px;
 
 }
-.landing span{
+.landing h5{
     color: red;
     font-size: 30px;
 }
 
  .button{
     padding-top: 40px;
-    margin-left: 110px;
+    margin-left: 32%;
     display: flex;
  }
- .and{
-margin-left: 20px;
- } 
+  
  
- 
- .button span{
+ .button h2{
     color: black;
     font-weight: bold;
  }
- .button span:hover{
+ .button h2:hover{
     color: aliceblue;
 
  }
 
+ .sketch h2{
+	text-transform: capitalize;
+	margin-left: 30px;
+	margin-top: 40%;
+	text-decoration: underline;
+	font-weight: bolder;
+    font-size: 40px;
+ }
+
 
  .footer-distributed{
-    margin-top: 20%;
+    margin-top: 28%;
 	background: #444;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
@@ -271,4 +277,56 @@ width: 35%;
 		float: none;
 	}
 }
-  
+
+
+.sketch{
+	width: 100%;
+}
+
+.gallery{
+	margin-top: 250px;
+	margin-bottom: 300px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: animate 30s linear  infinite;
+    animation-play-state: running;
+}
+
+@keyframes animate {
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.gallery:hover{
+    animation-play-state: paused;
+}
+
+p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+    -webkit-box-reflect: below 0px linear-gradient(transparent,transparent,#0004);
+}
+
+p img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
