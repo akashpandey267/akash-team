@@ -9,7 +9,7 @@
 padding-top: 30%;
 }
 .landing{
-	
+	 
 	border-radius: 20px;
 	width: 100%;
 	background-color: gray;
@@ -25,6 +25,7 @@ width: 100%;
 text-align: center;
 }
 .landing h2{
+	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
     color: black;
     text-transform: uppercase;
     text-shadow: 0cqb;
@@ -35,12 +36,15 @@ text-align: center;
 }
 
 .landing h4{
+	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
 	margin-bottom: 10%;
 text-transform: capitalize;
 padding-top: 100px;
 font-style: italic;
 text-align: center;
 font-size: 15px;
+font-weight: bolder;
+color: black;
 
 }
 .landing h5{
@@ -56,10 +60,19 @@ font-size: 15px;
   
  
  .button h2{
+	text-shadow: 2px 2px white;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
  }
+ .more{
+	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
+color: black;
+font-size: 30px;
+font-style: italic;
+ }
+
  .button h2:hover{
+	text-shadow: 2px 2px black;
     color: aliceblue;
 
  }
@@ -72,6 +85,7 @@ font-size: 15px;
 	 text-align: center;
 	font-weight: bolder;
     font-size: 70px;
+	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
  }
 
 
