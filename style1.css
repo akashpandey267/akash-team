@@ -18,7 +18,7 @@ padding-top: 30%;
 	 
 	border-radius: 20px;
 	width: 100%;
-	background-color: gray;
+	background: linear-gradient(to top, #3399ff 6%, #ffffff 90%);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 }
@@ -31,7 +31,7 @@ width: 100%;
 text-align: center;
 }
 .landing h2{
-	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
+	text-shadow: 2px 2px 5px white , 0 2px black, 0 0 5px black;
     color: black;
     text-transform: uppercase;
     text-shadow: 0cqb;
@@ -42,7 +42,7 @@ text-align: center;
 }
 
 .landing h4{
-	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
+	text-shadow: 2px 2px 5px white , 0 2px black, 0 0 5px black;
 	margin-bottom: 10%;
 text-transform: capitalize;
 padding-top: 100px;
@@ -66,18 +66,20 @@ color: black;
   
  
  .button h2{
+	text-decoration: none;
 	text-shadow: 2px 2px white;
     color: black;
     font-weight: bolder;
  }
  .more{
-	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
+	text-shadow: 2px 2px 5px white , 0 2px black, 0 0 5px black;
 color: black;
 font-size: 30px;
 font-style: italic;
  }
 
  .button h2:hover{
+	
 	text-shadow: 2px 2px black;
     color: aliceblue;
 
@@ -91,14 +93,14 @@ font-style: italic;
 	 text-align: center;
 	font-weight: bolder;
     font-size: 70px;
-	text-shadow: 2px 2px 5px white , 0 25px gray, 0 0 5px black;
+	text-shadow: 2px 2px 5px white , 0 2px black, 0 0 5px black;
  }
 
 
  .footer-distributed{
     margin-top: 28%;
 	border-radius: 20px;
-	background: GRAY;
+	background: linear-gradient(to bottom, #3399ff 6%, #ffffff 90%);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
@@ -209,7 +211,7 @@ width: 35%;
 	display: block;
 	border-radius: 3px;
 	box-sizing: border-box;
-	background-color:  #1f2022;
+	background-color: black;
 	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
 	border: none;
 	resize: none;
@@ -314,7 +316,7 @@ width: 35%;
 .sketch{
 	border-radius: 20px;
 	width: 100%;
-	background-color: gray;
+	background: linear-gradient(to bottom left, #3399ff 6%, #ffffff 90%);
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 }
